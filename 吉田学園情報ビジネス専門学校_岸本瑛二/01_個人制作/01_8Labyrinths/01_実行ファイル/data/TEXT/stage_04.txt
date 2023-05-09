@@ -1,0 +1,183 @@
+#==============================================================================
+#
+# stage_04.txt
+# Author:Kishimoto Eiji
+#
+#==============================================================================
+SCRIPT
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 2
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/Block.x						#[0]ブロック
+MODEL_FILENAME = data/MODEL/Coin01.x					#[1]コイン
+MODEL_FILENAME = data/MODEL/Door.x						#[2]ドア
+MODEL_FILENAME = data/MODEL/Fence.x						#[3]柵
+MODEL_FILENAME = data/MODEL/BlockHorizontal_Long.x		#[4]横長ブロック
+MODEL_FILENAME = data/MODEL/BlockHorizontal_VeryLong.x	#[5]超横長ブロック
+MODEL_FILENAME = data/MODEL/BlockVertical_Long.x		#[6]縦長ブロック
+MODEL_FILENAME = data/MODEL/BlockVertical_VeryLong.x	#[7]超縦長ブロック
+
+#------------------------------------------------------------------------------
+#モデル配置情報
+#【モデルタイプ(MODEL_TYPE)内訳】
+#(0:オブジェクト)
+#(1:ギミック)
+#(2:アイテム)
+#(3:ドア)
+#------------------------------------------------------------------------------
+#------------------
+#超横長ブロック
+#------------------
+MODELSET
+	INDEX = 5
+	MODEL_TYPE = 1
+	POS = 200.0 60.0 50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 5
+	MODEL_TYPE = 1
+	POS = 200.0 0.0 50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 5
+	MODEL_TYPE = 1
+	POS = 200.0 0.0 -50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 5
+	MODEL_TYPE = 1
+	POS = 220.0 0.0 -90.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+#------------------
+#超縦長ブロック
+#------------------
+MODELSET
+	INDEX = 7
+	MODEL_TYPE = 1
+	POS = 240.0 60.0 -10.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 7
+	MODEL_TYPE = 1
+	POS = 240.0 0.0 -10.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 7
+	MODEL_TYPE = 1
+	POS = 100.0 0.0 20.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+#------------------
+#ブロック
+#------------------
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 240.0 20.0 50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 240.0 40.0 50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 160.0 20.0 50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 160.0 40.0 50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 240.0 20.0 -50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 240.0 40.0 -50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 160.0 20.0 -50.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	INDEX = 0
+	MODEL_TYPE = 1
+	POS = 150.0 0.0 -80.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+#------------------
+#アイテム
+#------------------
+MODELSET
+	INDEX = 1
+	MODEL_TYPE = 2
+	POS = 200.0 0.0 0.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+#------------------
+#ドア
+#【POS,ROTの設定無し】
+#【方向(DIR)内訳】
+#(0,左)
+#(1,奥)
+#(2,右)
+#(3,手前)
+#------------------
+MODELSET
+	INDEX = 2
+	MODEL_TYPE = 3
+	DIR = 0
+END_MODELSET
+
+#------------------
+#柵
+#------------------
+#MODELSET
+#	INDEX = 3
+#	MODEL_TYPE = 0
+#	POS = 200.0 0.0 200.0
+#	ROT = 0.0 0.0 0.0
+#END_MODELSET
+
+END_SCRIPT
