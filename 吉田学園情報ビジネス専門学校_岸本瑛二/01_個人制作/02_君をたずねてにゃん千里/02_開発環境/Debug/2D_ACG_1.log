@@ -1,0 +1,19 @@
+﻿  sound.cpp
+  pause.cpp
+  main.cpp
+c:\users\student\documents\visual studio 2015\projects\2dゲーム制作応用\2d_acg_1\main.cpp(46): warning C4100: 'lpCmdLine': 引数は関数の本体部で 1 度も参照されません。
+c:\users\student\documents\visual studio 2015\projects\2dゲーム制作応用\2d_acg_1\main.cpp(46): warning C4100: 'hInstancePrev': 引数は関数の本体部で 1 度も参照されません。
+c:\users\student\documents\visual studio 2015\projects\2dゲーム制作応用\2d_acg_1\main.cpp(171): warning C4189: 'pVtx': ローカル変数が初期化されましたが、参照されていません
+  enemy.cpp
+  コードを生成中...
+  コンパイル中...
+  tutorial.cpp
+  title.cpp
+  result.cpp
+  ranking.cpp
+  player.cpp
+  item.cpp
+  game.cpp
+  コードを生成中...
+  2D_ACG_1.vcxproj -> C:\Users\student\Documents\Visual Studio 2015\Projects\2Dゲーム制作応用\2D_ACG_1\Debug\2D_ACG_1.exe
+  2D_ACG_1.vcxproj -> C:\Users\student\Documents\Visual Studio 2015\Projects\2Dゲーム制作応用\2D_ACG_1\Debug\2D_ACG_1.pdb (Full PDB)
